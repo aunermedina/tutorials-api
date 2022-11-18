@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: ["http://localhost:8081", "http://localhost:5173"]
+  origin: ["http://localhost:8081", "http://localhost:5173", "https://pi-csn-api.herokuapp.com"]
 };
 
 app.use(cors(corsOptions));
